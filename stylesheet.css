@@ -104,14 +104,14 @@ article > h2
 
 aside   
 {
-    width: 13em;
+    width: 20em;
     
     border-radius: 1em;
 
     background-color: green;
     color: white;
     
-    position: absolute;
+    /*position: absolute;*/
     right: 0em;
     top:0em;
     height: 100%;
