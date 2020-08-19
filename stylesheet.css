@@ -1,0 +1,198 @@
+/* Setting font */
+body
+{
+Font-family: "Verdana", 
+"Roboto", sans-serif;
+}
+
+/* Setting for hyperlinks. */
+a[target="_blank"]::before
+{
+    content: "→ ";
+}
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+
+/* Header settings*/
+header
+{
+    border-radius: 1em;
+    
+    background-color: #ff0000;
+    height: 4em;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1em;
+    
+}
+header > h1
+{
+    color: white;
+    text-align: center;
+}
+
+/* Navigation area */
+nav
+{
+    margin: 0 14em 0 1em;   
+}
+
+nav > ul
+{   
+    position: relative;
+    padding: 0em;
+}
+nav > ul > li   
+{
+    display: inline-block;
+    background-color: #040794;
+    border-radius: 1em;
+    
+    text-align: left;
+    text-indent: 1em;
+
+    width: 14em;
+    height: 3em;
+    
+    margin: 0 1em 1em 0;
+
+    padding: 0px;
+}
+nav > ul > li:hover
+{
+    background-color: green;
+}
+nav > ul > li > a   
+{   
+    color: white;
+    
+    line-height: 3em;
+    
+    width: 14em;
+    height: 3em;
+
+    margin: 0px;
+    display: block;
+    width: 100%;
+    height: 100%;   
+}
+
+/* Main area */
+main    
+{
+    margin: 0 14em 0 0;
+    height: 100%;
+}
+
+main > article > p > a
+{
+    color: blue;
+}
+
+// Main area with the articles
+article 
+{
+    column-width: 15em;
+    column-gap: 1em;
+    
+    border-style: solid;
+    border-radius: 1em;
+    background-color: lightgrey;
+
+    border-color: #888888;
+
+    margin: 1em;
+    padding: 1em;
+}
+article > h2
+{
+    margin-top: 0em;
+}
+
+.main_aside_container
+{
+    position: relative;
+}
+
+// aside area on the right side
+aside   
+{
+    width: 13em;
+    
+    border-radius: 1em;
+
+    background-color: green;
+    color: white;
+    
+    position: absolute;
+    right: 0em;
+    top:0em;
+    height: 100%;
+
+    margin-right: 1em;
+}
+aside > h4
+{
+    margin-left: 1em;   
+}
+aside > p > a
+{   
+    margin-left: 1em;
+    color: #ddf;
+}
+
+/* Footer area */
+footer  
+{
+    border-style: solid;
+    border-radius: 1em;
+    
+    background-color: lightslategrey;
+    
+    text-align: center;
+
+    height: auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1em;
+}
+
+footer > p
+{
+    margin-left: 1em;
+    margin-right: 1em;  
+}
+
+/* Logo in footer */
+.zur_th
+{
+    /*Background-image:
+url("img/logo_th_nuernbe
+rg.png");*/
+    background-position: 100% 100%;
+
+    width: 80px;
+    height: 80px;
+    position: relative;
+    
+    display: inline-block;
+}
+
+.zur_th:hover
+{
+    background-position: 0% 0%;
+}
+
