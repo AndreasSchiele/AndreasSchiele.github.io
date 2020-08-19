@@ -54,8 +54,6 @@ nav > ul
 nav > ul > li   
 {
     display: inline-block;
-    background-color: #040794;
-    border-radius: 1em;
     
     text-align: left;
     text-indent: 1em;
