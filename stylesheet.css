@@ -24,7 +24,7 @@ header
 {
     border-radius: 1em;
     
-    background-color: #ff0000;
+    background-color: #000000;
     height: 4em;
     
     display: flex;
@@ -39,23 +39,26 @@ header > h1
     color: white;
     text-align: center;
 }
+header > p
+{
+    color: white;
+}
 
 /* Navigation area */
 nav
 {
-    margin: 0 1em 0 1em;
+    margin: 1em;
     width: 70%;   
 }
 
 nav > ul
 {   
     position: relative;
-    width: 70%;
     padding: 0em;
 }
 nav > ul > li   
 {
-    width: 70%;
+    width: 50%;
     display: block;
     float: left;
     
@@ -68,37 +71,6 @@ nav > ul > li
     margin: 0 1em 1em 0;
 
     padding: 0px;
-}
-
-/* Main area */
-main    
-{
-    margin: 0 14em 0 0;
-    height: 100%;
-}
-
-main > article > p > a
-{
-    color: blue;
-}
-
-article 
-{
-    column-width: 15em;
-    column-gap: 1em;
-    
-    border-style: solid;
-    border-radius: 1em;
-    background-color: lightgrey;
-
-    border-color: #888888;
-
-    margin: 1em;
-    padding: 1em;
-}
-article > h2
-{
-    margin-top: 0em;
 }
 
 .main_aside_container
