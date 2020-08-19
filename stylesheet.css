@@ -43,12 +43,14 @@ header > h1
 /* Navigation area */
 nav
 {
-    margin: 0 1em 0 1em;   
+    margin: 0 1em 0 1em;
+    width: 70%;   
 }
 
 nav > ul
 {   
     position: relative;
+    width: 70%;
     padding: 0em;
 }
 nav > ul > li   
