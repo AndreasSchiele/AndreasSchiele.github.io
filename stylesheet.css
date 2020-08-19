@@ -54,7 +54,8 @@ nav > ul
 nav > ul > li   
 {
     width: 70%;
-    display: inline-block;
+    display: block;
+    float: left;
     
     text-align: left;
     /*text-indent: 1em;*/
