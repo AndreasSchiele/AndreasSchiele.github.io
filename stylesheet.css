@@ -6,10 +6,6 @@ Font-family: "Verdana",
 }
 
 /* Setting for hyperlinks. */
-a::before
-{
-    content: "&nbsp;&nbsp;&nbsp;";
-}
 a
 {
     border-radius: 1em;
