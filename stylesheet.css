@@ -6,12 +6,13 @@ Font-family: "Verdana",
 }
 
 /* Setting for hyperlinks. */
-a[target="_blank"]::before
+a::before
 {
-    content: "→ ";
+    content: "      ";
 }
 a
 {
+    background-color: white;
     text-decoration: none;
 }
 a:hover
@@ -81,13 +82,13 @@ nav > ul > li
 aside   
 {
     width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
+    /*padding-left: 15px;
+    margin-left: 15px;*/
     float: right;
     
     border-radius: 1em;
 
-    background-color: green;
+    background-color: black;
     color: white;
     
     /*position: absolute;*/
