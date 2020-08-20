@@ -8,16 +8,23 @@ Font-family: "Verdana",
 /* Setting for hyperlinks. */
 a::before
 {
-    content: "      ";
+    content: "&nbsp;&nbsp;&nbsp;";
 }
 a
 {
+    border-radius: 1em;
     background-color: white;
     text-decoration: none;
 }
 a:hover
 {
     text-decoration: underline;
+}
+
+#TSV_Logo
+{
+    width: 20px;
+    height: 20px;
 }
 
 /* Header settings*/
