@@ -1,6 +1,6 @@
 /* Setting font */
 html {
-    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background: url(pictures/blaueblasen.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -11,10 +11,6 @@ html {
     background-repeat: repeat-x; 
     -webkit-animation: wolken 60s; -webkit-animation-timing-function: linear; 
     animation: wolken 60s infinite; animation-timing-function: linear ; 
-
-    /*display: flex;
-    align-items: center;
-    justify-content: center;*/
     overflow: hidden;
     }
 
@@ -68,9 +64,83 @@ html {
     text-align: center;
     vertical-align: middle;
     font-size: 3em;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-shadow: gray;
     font-weight: bold;
     font-style: italic;
     font-variant: small-caps;
+    opacity: 0.8;
+  }
+
+  main > p{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+    background-color: black;
+    height: 10em;
+    width: 10em;
+    border-radius: 5em;
+    display: table;
+  }
+
+  main > p > a{
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.5em;
+    text-shadow: gray;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    opacity: 0.8;
+  }
+
+  main > p:hover{
+    background-color: blue;
+    opacity: 0.6;
+  }
+
+  #uebermich{
+    position: absolute;
+
+    top: 12em;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  #it{
+    position: absolute;
+
+    top: 23em;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    left: 33%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  #handball{
+    position: absolute;
+
+    top: 23em;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    left: 66%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
   }
