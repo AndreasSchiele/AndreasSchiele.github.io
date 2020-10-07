@@ -1,0 +1,51 @@
+/* Setting font */
+html {
+    background-color: white;
+    background: url(pictures/blaueblasen.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.75;
+    background-repeat: repeat-x; 
+    -webkit-animation: wolken 60s; -webkit-animation-timing-function: linear; 
+    animation: wolken 60s infinite; animation-timing-function: linear ; 
+    }
+
+  @-webkit-keyframes wolken {
+      from {background-position: 0;}
+      to {background-position: 1010px;}
+  }
+  @keyframes wolken {
+      from {background-position: 0;}
+      to {background-position: 1010px;}
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height: 2 rem;
+    text-align: right;
+  }
+
+  footer > a{
+    color: white;
+    font-size: small;
+    text-decoration: none;
+  }
+
+  #middlecircle{
+    background-color: white;
+    border: none;
+    border-radius: 20em;
+
+    position: absolute;
+    height: 40em;
+    width: 40em;
+    bottom: 20%;
+    left: 30%;
+
+    color: blue;
+  }
