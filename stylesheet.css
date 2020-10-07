@@ -101,7 +101,7 @@ nav > ul > li
 .left_aside_container   
 {
     position: relative;
-    width: 25em;
+    /*width: 25em;*/
 
     float: left;
     
