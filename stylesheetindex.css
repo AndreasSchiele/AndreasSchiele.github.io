@@ -81,6 +81,8 @@ html {
     width: 10em;
     border-radius: 5em;
     display: table;
+    float: left;
+    margin: 1.5em;
   }
 
   main > p > a{
@@ -102,7 +104,7 @@ html {
     background-color: blue;
     opacity: 0.6;
   }
-
+/*
   #uebermich{
     position: absolute;
 
@@ -143,4 +145,4 @@ html {
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
-  }
+  }*/

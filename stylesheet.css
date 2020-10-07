@@ -6,13 +6,13 @@ Font-family: "Verdana",
 }
 
 /* Setting for hyperlinks. */
-a
+header > a
 {
     border-radius: 1em;
     background-color: white;
     text-decoration: none;
 }
-a:hover
+header > a:hover
 {
     background-color: #ffaaaa;
 }
@@ -26,7 +26,7 @@ a:hover
 /* Header settings*/
 header
 {
-    border-radius: 1em;
+    border-radius: 2em;
     
     background-color: #000000;
     height: 4em;
@@ -80,7 +80,7 @@ nav > ul > li
 .right_aside_container
 {
     position: relative;
-    width: 25%;
+    width: 25em;
     /*padding-left: 15px;
     margin-left: 15px;*/
     float: right;
@@ -101,7 +101,7 @@ nav > ul > li
 .left_aside_container   
 {
     position: relative;
-    width: 25%;
+    width: 25em;
 
     float: left;
     
