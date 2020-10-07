@@ -80,10 +80,10 @@ nav > ul > li
 .right_aside_container
 {
     position: relative;
-    width: 25em;
+    width: 30%;
     /*padding-left: 15px;
     margin-left: 15px;*/
-    float: right;
+    float: left;
     
     border-radius: 1em;
 
@@ -96,30 +96,6 @@ nav > ul > li
     height: 100%;
 
     margin-right: 1em;
-}
-
-.left_aside_container   
-{
-    position: relative;
-    /*width: 25em;*/
-
-    float: left;
-    
-    border-radius: 0.2em;
-
-    background-color: black;
-    color: white;
-
-    right: 0em;
-    top:0em;
-    height: 100%;
-
-    margin-left: 1em;
-}
-
-aside > table
-{
-    font-size: small;
 }
 
 /* Footer area */
