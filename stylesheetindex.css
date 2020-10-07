@@ -82,7 +82,7 @@ html {
     border-radius: 5em;
     display: table;
     float: left;
-    margin: 1.5em;
+    margin: 1em 0 1em 2.5em;
   }
 
   main > p > a{
