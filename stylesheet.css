@@ -85,8 +85,6 @@ nav > ul > li
     margin-left: 15px;*/
     float: right;
     
-    border-radius: 1em;
-
     background-color: black;
     color: white;
     
@@ -95,7 +93,7 @@ nav > ul > li
     top:0em;
     height: 100%;
 
-    margin: 0 1em 0 1em;
+    margin: 0 0 0 1em;
 }
 
 /* Footer area */
