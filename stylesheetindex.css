@@ -1,4 +1,9 @@
 /* Setting font */
+  header{
+    display: table;
+    float: left;
+  }
+
   footer {
     position: absolute;
     bottom: 0;
@@ -45,6 +50,7 @@
     font-style: italic;
     font-variant: small-caps;
     opacity: 0.8;
+    margin: 0.8em 0 0.4em 0;
   }
 
   main > p{
@@ -122,3 +128,24 @@
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
   }*/
+
+  .backbutton{
+    text-decoration: none;
+    font-weight: bolder;
+    opacity: 0.9;
+    display: table-cell;
+    vertical-align: middle;
+    float: left;
+
+    border-radius: 1em;
+    width: 2em;
+    height: 2em;
+    background-color: slategray;
+    color: snow;
+    text-align: center;
+    font-size: 2em;
+
+    position: fixed;
+    left: 0.75em;
+    top: 0.5em;
+  }
