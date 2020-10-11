@@ -11,7 +11,8 @@ main{
     background-color: lightgrey;
     opacity: 0.8;
     border-radius: 1em;
-    width: 75em;
-    height: 40em;
-    margin: 5em;
+    width: 85%;
+    height: 85%;
+    margin: 0 5em 2em 5em;
+    overflow: hidden;
 }
