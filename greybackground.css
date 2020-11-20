@@ -9,7 +9,6 @@ html {
     background-repeat: repeat-x; 
     -webkit-animation: wolken 60s; -webkit-animation-timing-function: linear; 
     animation: wolken 60s infinite; animation-timing-function: linear ; 
-    overflow: hidden;
     }
 
   @-webkit-keyframes wolken {

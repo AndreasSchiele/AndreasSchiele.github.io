@@ -118,3 +118,48 @@ footer > p
     margin-left: 1em;
     margin-right: 1em;  
 }
+
+#Schriftzug{
+    width: 25em;
+    height: 25em;
+    margin: 10em;
+    -webkit-animation: schriftzug 5s ; -webkit-animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); 
+    animation: schriftzug 5s ; animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); 
+}
+
+@-webkit-keyframes schriftzug {
+    0%{content: url(Schriftzug/Andreas1.png);}
+    7%{content: url(Schriftzug/Andreas2.png);}
+    13%{content: url(Schriftzug/Andreas3.png);}
+    20%{content: url(Schriftzug/Andreas4.png);}
+    27%{content: url(Schriftzug/Andreas5.png);}
+    33%{content: url(Schriftzug/Andreas6.png);}
+    40%{content: url(Schriftzug/Andreas7.png);}
+    47%{content: url(Schriftzug/Andreas8.png);}
+    53%{content: url(Schriftzug/Andreas9.png);}
+    60%{content: url(Schriftzug/Andreas10.png);}
+    67%{content: url(Schriftzug/Andreas11.png);}
+    73%{content: url(Schriftzug/Andreas12.png);}
+    80%{content: url(Schriftzug/Andreas13.png);}
+    87%{content: url(Schriftzug/Andreas14.png);}
+    93%{content: url(Schriftzug/Andreas15.png);}
+    /*100%{content: url(Schriftzug/Andreas1.png);}*/
+}
+@keyframes schriftzug {
+    0%{content: url(Schriftzug/Andreas1.png);}
+    7%{content: url(Schriftzug/Andreas2.png);}
+    13%{content: url(Schriftzug/Andreas3.png);}
+    20%{content: url(Schriftzug/Andreas4.png);}
+    27%{content: url(Schriftzug/Andreas5.png);}
+    33%{content: url(Schriftzug/Andreas6.png);}
+    40%{content: url(Schriftzug/Andreas7.png);}
+    47%{content: url(Schriftzug/Andreas8.png);}
+    53%{content: url(Schriftzug/Andreas9.png);}
+    60%{content: url(Schriftzug/Andreas10.png);}
+    67%{content: url(Schriftzug/Andreas11.png);}
+    73%{content: url(Schriftzug/Andreas12.png);}
+    80%{content: url(Schriftzug/Andreas13.png);}
+    87%{content: url(Schriftzug/Andreas14.png);}
+    93%{content: url(Schriftzug/Andreas15.png);}
+    /*100%{content: url(Schriftzug/Andreas1.png);}*/
+}
