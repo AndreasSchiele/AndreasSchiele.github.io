@@ -123,8 +123,8 @@ footer > p
     width: 25em;
     height: 25em;
     margin: 10em;
-    -webkit-animation: schriftzug 5s ; -webkit-animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); 
-    animation: schriftzug 5s ; animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); 
+    -webkit-animation: schriftzug 5s infinite ; -webkit-animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); 
+    animation: schriftzug 5s infinite ; animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); 
 }
 
 @-webkit-keyframes schriftzug {
