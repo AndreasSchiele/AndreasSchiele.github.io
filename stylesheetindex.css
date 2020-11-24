@@ -51,8 +51,7 @@
   main > span > p{
     text-align: center;
     text-decoration: none;
-    color: white;
-    opacity: 0.7;
+    opacity: 0.9;
     background-color: black;
     height: 10em;
     width: 10em;
@@ -78,8 +77,8 @@
   }
 
   main > span > p:hover{
-    background-color: blue;
-    opacity: 0.6;
+    background-color: #000033;
+    opacity: 0.8;
   }
 /*
   #uebermich{
