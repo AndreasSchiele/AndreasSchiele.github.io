@@ -7,12 +7,13 @@ html {
 }
 
 main{
-    position: absolute;
+    position: relative;
     background-color: lightgrey;
     opacity: 0.8;
     border-radius: 1em;
     width: 65%;
-    height: 85%;
-    margin: 0 5em 2em 5em;
-    overflow: hidden;
+    min-height: 85%;
+    margin: 0 2em 2em 2em;
+    float: left;
+    
 }
