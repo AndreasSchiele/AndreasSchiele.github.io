@@ -216,9 +216,3 @@
     opacity: 0.8;
   }
   */
-
-  @media (min-width: 900px) {
-    body{
-      background-color: red;
-    }
-  }
