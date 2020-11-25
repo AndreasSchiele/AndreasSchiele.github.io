@@ -158,11 +158,12 @@
   }
 
   body{
-    margin-top: 16%;
+    margin-top: 5em;
   }
 
-  marquee{
-    -moz-binding: none;
+  #diashow{
+    width: 50%;
+    height: 30em;
   }
 
 /*
@@ -221,150 +222,3 @@
     opacity: 0.8;
   }
   */
-
-  @media (min-width: 50em) {   
-    footer {
-      position: absolute;
-      bottom: 0;
-      width: 99%;
-      height: 2 rem;
-      text-align: right;
-    }
-  
-    footer > a{
-      color: white;
-      font-size: small;
-      text-decoration: none;
-    }
-  
-    #middlecircle{
-      background-color: white;
-      opacity: 0.8;
-      border: none;
-      border-radius: 20em;
-  
-      position: absolute;
-      height: 40em;
-      width: 40em;
-  
-      top: 5em;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
-  
-      left: 50%;
-      -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-      transform: translateX(-50%);
-  
-      color: blue;
-    }
-  
-    #title{
-      text-align: center;
-      vertical-align: middle;
-      font-size: 4em;
-      text-shadow: gray;
-      font-weight: bold;
-      font-style: italic;
-      font-variant: small-caps;
-      opacity: 0.8;
-      margin: 0.8em 0 0.4em 0;
-    }
-  
-    main > span > p{
-      text-align: center;
-      text-decoration: none;
-      opacity: 0.9;
-      background-color: black;
-      height: 10em;
-      width: 10em;
-      border-radius: 5em;
-      display: table;
-      float: left;
-      margin: 1em 0 1em 2.5em;
-    }
-  
-    main > span > p > a{
-      color: white;
-      display: table-cell;
-      vertical-align: middle;
-      text-decoration: none;
-      text-align: center;
-      vertical-align: middle;
-      font-size: 1.5em;
-      text-shadow: gray;
-      font-weight: bold;
-      font-style: italic;
-      font-variant: small-caps;
-      opacity: 0.8;
-    }
-  
-    main > span > p:hover{
-      background-color: #000033;
-      opacity: 0.8;
-    }
-  
-    header{
-      width: 100%;
-      height: 8%;
-      z-index: 999;
-      left: 0em;
-      top: 0em;
-      float: left;
-      background-color: black;
-      position: fixed;
-      opacity: 0.9;
-      overflow: visible;
-    }
-  
-    .backbutton{
-      text-decoration: none;
-      font-weight: bolder;
-      opacity: 0.9;
-      display: table-cell;
-      vertical-align: middle;
-      float: left;
-  
-      border-radius: 0.7em;
-      width: 1.4em;
-      height: 1.4em;
-      background-color: slategray;
-      color: snow;
-      text-align: center;
-      font-size: 2em;
-  
-      position: fixed;
-      top: 0.3em;
-      left: 0.3em;
-    }
-  
-    body{
-      margin-top: 8%;
-    }
-  
-    main > span > p > a{
-      color: white;
-      display: table-cell;
-      vertical-align: middle;
-      text-decoration: none;
-      text-align: center;
-      vertical-align: middle;
-      font-size: 1.5em;
-      text-shadow: gray;
-      font-weight: bold;
-      font-style: italic;
-      font-variant: small-caps;
-      opacity: 0.8;
-    }
-  
-    main > span > p:hover{
-      background-color: #000033;
-      opacity: 0.8;
-    }
-
-    marquee{
-      -moz-binding: initial;
-    }
-
-  }
