@@ -158,8 +158,13 @@
   }
 
   body{
-    margin-top: 10%;
+    margin-top: 16%;
   }
+
+  marquee{
+    -moz-binding: none;
+  }
+  
 /*
   .move-left{
     white-space: nowrap;
@@ -335,7 +340,7 @@
     }
   
     body{
-      margin-top: 16%;
+      margin-top: 8%;
     }
   
     main > span > p > a{
@@ -359,7 +364,7 @@
     }
 
     marquee{
-      -moz-binding: none;
+      -moz-binding: initial;
     }
 
   }
