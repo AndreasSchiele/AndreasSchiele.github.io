@@ -217,7 +217,7 @@
   }
   */
 
-  @media (min-width: 370px) {
+  @media (min-width: 500px) {
     body{
       background-color: red;
     }
