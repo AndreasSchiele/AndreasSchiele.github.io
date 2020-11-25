@@ -216,3 +216,9 @@
     opacity: 0.8;
   }
   */
+
+  @media (min-width: 30em) {   
+    body{
+      background-color:blue;
+    }
+  }
