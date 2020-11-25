@@ -164,7 +164,7 @@
   marquee{
     -moz-binding: none;
   }
-  
+
 /*
   .move-left{
     white-space: nowrap;
@@ -222,7 +222,7 @@
   }
   */
 
-  @media (min-width: 30em) {   
+  @media (min-width: 40em) {   
     footer {
       position: absolute;
       bottom: 0;
