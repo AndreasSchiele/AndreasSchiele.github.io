@@ -222,7 +222,7 @@
   }
   */
 
-  @media (min-width: 40em) {   
+  @media (min-width: 50em) {   
     footer {
       position: absolute;
       bottom: 0;
