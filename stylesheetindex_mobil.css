@@ -108,11 +108,11 @@
       background-color: slategray;
       color: snow;
       text-align: center;
-      font-size: 2em;
+      font-size: 4%;
   
       position: fixed;
-      top: 0.3em;
-      left: 0.3em;
+      top: 1%;
+      left: 1%;
     }
   
     body{
