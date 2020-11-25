@@ -144,9 +144,9 @@
     vertical-align: middle;
     float: left;
 
-    border-radius: 0.7em;
-    width: 1.4em;
-    height: 1.4em;
+    border-radius: 50%;
+    width: 4%;
+    height: 6%;
     background-color: slategray;
     color: snow;
     text-align: center;
