@@ -8,7 +8,6 @@ html {
     -o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
-    opacity: 0.75;
     background-repeat: repeat-x; 
     -webkit-animation: wolken 60s; -webkit-animation-timing-function: linear; 
     animation: wolken 60s infinite; animation-timing-function: linear ; 
@@ -33,6 +32,5 @@ html {
     -o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
-    opacity: 0.75;
     background-repeat: repeat-x; 
 }
