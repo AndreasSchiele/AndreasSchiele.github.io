@@ -131,17 +131,19 @@
     .backbutton{
       text-decoration: none;
       font-weight: bolder;
-      display: table-cell;
       vertical-align: middle;
       float: left;
+
+      position: fixed;
+      top: 0.1em;
+      left: 0.1em;
+      font-size: 200%;
+
+      margin: auto;
   
       background: none;
       color: snow;
       text-align: center;
-      font-size: 20vw;
-  
-      position: fixed;
-      left: 0.1em;
     }
   
     body{

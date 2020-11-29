@@ -171,7 +171,6 @@
   .backbutton{
     text-decoration: none;
     font-weight: bolder;
-    display: table-cell;
     vertical-align: middle;
     float: left;
 
@@ -181,8 +180,11 @@
     font-size: 4em;
 
     position: fixed;
-
+    top: 0.2em;
     left: 0.1em;
+    font-size: 200%;
+
+    margin: auto;
   }
 
   body{
