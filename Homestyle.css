@@ -11,9 +11,12 @@
   }
 
   section{
+    /*text-align: center;
+    vertical-align: middle;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 21%;
-    text-align: center;
-    vertical-align: middle;
   }
 
   section > p{
@@ -73,3 +76,23 @@
     margin-top: 5em;
   }
 
+  @media (max-width: 700px){
+    html{
+      overflow-x: hidden;
+    }
+    
+    #title{
+      width: 100%;
+    }
+  
+    section{
+      display: block;
+      margin-left: 0;
+      margin-right: 2em;
+      margin-top: 10%;
+    }
+  
+    section > p{
+      width: 100%;
+    }  
+  }
