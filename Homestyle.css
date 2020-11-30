@@ -84,6 +84,7 @@
     
     #title{
       width: 100%;
+      font-size: 8em;
     }
   
     section{
@@ -96,4 +97,8 @@
     section > p{
       width: 100%;
     }  
+
+    section > p > a{
+      font-size: 5em;
+    }
   }
