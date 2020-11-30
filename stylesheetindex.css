@@ -137,13 +137,14 @@
   }
 
   header > span {
-    position: fixed;
-    top: 0.2em;
-    left: 0.1em;
-    font-size: 200%;
+      position: fixed;
+      top: 0.3em;
+      left: 0.5em;
+      font-size: 200%;
 
-    margin: auto;
+      margin: auto;
   }
+  
 
   /*
   .backbutton{
