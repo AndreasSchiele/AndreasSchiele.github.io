@@ -105,7 +105,7 @@
     section{
       display: block;
       margin-left: 0;
-      margin-right: 2em;
+      margin-right: 7%;
       margin-top: 20%;
     }
   
@@ -115,6 +115,7 @@
 
     section > p{
       width: 100%;
+      padding: 1em;
     }  
 
     section > p > a{
