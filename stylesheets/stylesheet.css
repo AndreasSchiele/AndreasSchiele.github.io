@@ -119,6 +119,7 @@ footer > p
     margin-right: 1em;  
 }
 
+/*
 #Schriftzug{
     width: 25em;
     height: 25em;
@@ -143,7 +144,7 @@ footer > p
     80%{content: url(Schriftzug/Andreas13.png);}
     87%{content: url(Schriftzug/Andreas14.png);}
     93%{content: url(Schriftzug/Andreas15.png);}
-    /*100%{content: url(Schriftzug/Andreas1.png);}*/
+    100%{content: url(Schriftzug/Andreas1.png);}
 }
 @keyframes schriftzug {
     0%{content: url(Schriftzug/Andreas1.png);}
@@ -161,5 +162,6 @@ footer > p
     80%{content: url(Schriftzug/Andreas13.png);}
     87%{content: url(Schriftzug/Andreas14.png);}
     93%{content: url(Schriftzug/Andreas15.png);}
-    /*100%{content: url(Schriftzug/Andreas1.png);}*/
+    100%{content: url(Schriftzug/Andreas1.png);}
 }
+*/

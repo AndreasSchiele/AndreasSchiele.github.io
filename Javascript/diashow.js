@@ -1,7 +1,7 @@
 var pictures = new Array();
-    pictures[0] = "pictures/Ballspielgruppe.jpg";
-    pictures[1] = "pictures/it2.png";
-    pictures[2] = "pictures/meer.jpg";
+    pictures[0] = "../pictures/Ballspielgruppe.jpg";
+    pictures[1] = "../pictures/it2.png";
+    pictures[2] = "../pictures/meer.jpg";
 
     var speed = 3000;
     var position = 0;
