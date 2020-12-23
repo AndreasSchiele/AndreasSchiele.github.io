@@ -13,25 +13,26 @@ image1.src = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhA
 ctx.drawImage(image1, 0, 0, canvas.width, canvas.height);
 
 var button = document.getElementById("colorButton");
-button.addEventListener("click", function(){
-ctx.drawImage(image1, 0, 0, canvas.width, canvas.height);
-const scannedImage = ctx.getImageData(0, 0, canvas.width, canvas.height);
-console.log(scannedImage);
 
-var sliderRed = document.getElementById("myRangeRed").value;
-var sliderGreen = document.getElementById("myRangeGreen").value;
-var sliderBlue = document.getElementById("myRangeBlue").value;
+    button.addEventListener("click", function(){
+    ctx.drawImage(image1, 0, 0, canvas.width, canvas.height);
+    const scannedImage = ctx.getImageData(0, 0, canvas.width, canvas.height);
+    //console.log(scannedImage);
 
-const scannedData = scannedImage.data;
-for(let i=0; i < scannedData.length; i += 4){
-        const total = scannedData[i] + scannedData[i+1] + scannedData[i+2];
-        const averageColorValue = total/3;
-        scannedData[i] = averageColorValue + sliderRed;
-        scannedData[i+1] = averageColorValue + sliderGreen;
-        scannedData[i+2] = averageColorValue + sliderBlue;
-}
+    var sliderRed = document.getElementById("myRangeRed").value;
+    var sliderGreen = document.getElementById("myRangeGreen").value;
+    var sliderBlue = document.getElementById("myRangeBlue").value;
 
-scannedImage.data = scannedData;
-ctx.putImageData(scannedImage, 0, 0);
+    const scannedData = scannedImage.data;
+    for(let i=0; i < scannedData.length; i += 4){
+            const total = scannedData[i] + scannedData[i+1] + scannedData[i+2];
+            const averageColorValue = total/3;
+            scannedData[i] = averageColorValue + sliderRed;
+            scannedData[i+1] = averageColorValue + sliderGreen;
+            scannedData[i+2] = averageColorValue + sliderBlue;
+    }
+
+    scannedImage.data = scannedData;
+    ctx.putImageData(scannedImage, 0, 0);
 })
 }
