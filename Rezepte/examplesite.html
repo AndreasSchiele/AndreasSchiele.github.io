@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="mobile-web-app-capable" content="yes">
+        <link rel="icon" sizes="192x192" href="../pictures/Icon.png">
+        <link rel="stylesheet" media="(max-width: 640px)" href="../stylesheets/stylesheetindex_mobil.css">
+        <link rel="stylesheet" media="(min-width: 640px)" href="../stylesheets/stylesheetindex.css">
+        <link rel="stylesheet" href="rezept.css">
+        <script type="text/javascript" src="../Javascript/menuwidth.js"></script>
+</head>
+<body>
+<header>
+    <span style="cursor:pointer;color: white;" onclick="openNav()"> &#9776; </span>
+    <p id="ueberschrift">Beispielgericht</p>
+</header>
+    <aside>
+        <img src="pictures/Kaiserschmarrn.png">
+        <div class="slidecontainer">
+            <input type="range" min="0" max="20" step="0.5" value="4" class="slider" id="myRange">
+        </div>
+        <section>
+            <h2>Zutaten für <span id="portions">4</span> Portionen:</h2>
+            <p><span id="eggs">4</span> Eier</p>
+            <p><span id="salt">1</span> Prise Salz</p>
+            <p><span id="sugar">50</span> g Zucker</p>
+            <p><span id="milk">4</span> EL Milch</p>
+            <p><span id="flour">100</span> g Mehl</p>
+            <p><span id="mascarpone">250</span> g Mascarpone</p>
+            <p>etwas Butter</p>
+            <p>etwas Puderzucker</p>
+            <p>zusätzlich Apfelmus, Zwetschgenröster oder ähnliches</p>
+        </section>
+        <script type="text/javascript" src="rezept.js"></script>
+    </aside>
+    <main>
+        <section>
+            <p>Test</p>
+        </section>
+    </main>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="Hauptgerichte/">Hauptgerichte</a>
+          <a href="Desserts/">Desserts</a>
+          <a href="Kuchen/">Kuchen</a>
+          <a href="Plätzchen/">Plätzchen</a>
+        </div>
+    </div>
+</body>
+</html>
