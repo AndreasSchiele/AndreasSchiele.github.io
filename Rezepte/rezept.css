@@ -109,8 +109,9 @@ p{
         float: left;
         width: 90%;
         left: 1em;
-        top: 0 em;
+        top: 0;
         margin-top: 2em;
+        margin-bottom: 2em;
         background-color: white;
     }
     
@@ -125,7 +126,7 @@ p{
         width: 90%;
         background-color: black;
         left: 1em;
-        top: 0 em;
+        top: 0;
         color: white;
     }
     
