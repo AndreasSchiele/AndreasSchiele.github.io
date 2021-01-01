@@ -48,7 +48,7 @@ function RandomRecipes(){
 
 
         section.appendChild(picture);
-        section.appendChild(header);
+        //section.appendChild(header);
         section.appendChild(link);
         section.appendChild(paragraph);
 
