@@ -1,9 +1,9 @@
 var pictures = new Array();
-    pictures[0] = "../pictures/Ballspielgruppe.jpg";
+    pictures[0] = "../pictures/Gardasee.jpg";
     pictures[1] = "../pictures/it2.png";
     pictures[2] = "../pictures/meer.jpg";
 
-    var speed = 3000;
+    var speed = 5000;
     var position = 0;
 
     function diashow(){
