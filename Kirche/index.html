@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="mobile-web-app-capable" content="yes">
+        <link rel="icon" sizes="192x192" href="../pictures/Icon.png">
+        <link rel="stylesheet" href="../stylesheets/Homestyle.css">
+        <style>
+            html{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            -webkit-text-stroke: 0.05em black;
+            background-color: black;
+            background: url(../pictures/Kirche.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: repeat-x; 
+            opacity: 0.8;
+            }
+
+            #title{
+            font-size: 3em;
+            opacity: 0.95;
+            }
+
+            main{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            #Kreuz{
+                width: 25em;
+                height: 25em;
+                max-width: 90%;    
+            }
+
+            @media (max-width: 1081px){
+                html{
+                    overflow-x: hidden;
+                    background-position-x: -500px;
+                }
+                
+                #title{
+                    margin-top: 5%;
+                    width: 100%;
+                    font-size: 5em;
+                }
+
+                #Kreuz{
+                width: 45em;
+                height: 45em;
+                max-width: 90%;    
+            }
+
+            }
+        </style>
+</head>
+<body>
+    <p id="title">Katholische Kirche Bäumenheim<br>Maria Immaculata</p>
+    <main>
+        <img id="Kreuz" src="../pictures/Kreuz.jpg">
+        <script>
+            var kreuz = document.getElementById("Kreuz");
+            kreuz.addEventListener('mouseover', mouseOver);
+            kreuz.addEventListener('mouseout', mouseOut);
+
+            function mouseOver(){
+                kreuz.src = "../pictures/Kreuz2.png";
+            }
+
+            function mouseOut(){
+                kreuz.src = "../pictures/Kreuz.jpg";
+            }
+        </script>
+    </main>
+        <!--<main>
+        <section>
+        <p id="uebermich">
+            <a href="aboutme/">About me</a>
+        </p>
+        <p id="it">
+            <a href="IT/">IT</a>
+        </p>
+        <p id="handball">
+            <a href="Handball/">Handball</a>
+        </p>
+        <p id="minion">
+            <a href="pixelanimation/">Minion Pixelanimation</a>
+        </p>
+        <p id="rezepte">
+            <a href="Rezepte/">Rezepte</a>
+        </p>
+        </section> -->
+</main>
+</body>
+</html>
