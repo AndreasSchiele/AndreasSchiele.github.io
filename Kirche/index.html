@@ -30,16 +30,18 @@
                 justify-content: center;
             }
 
-            #Kreuz{
+            main > img{
+                position: relative;
+                float: left;
                 width: 25em;
                 height: 25em;
-                max-width: 90%;    
+                max-width: 33%;    
             }
 
             @media (max-width: 1081px){
                 html{
                     overflow-x: hidden;
-                    background-position-x: -500px;
+                    /*background-position-x: -500px;*/
                 }
                 
                 #title{
@@ -48,7 +50,7 @@
                     font-size: 5em;
                 }
 
-                #Kreuz{
+                main > img{
                 width: 45em;
                 height: 45em;
                 max-width: 90%;    
@@ -58,20 +60,61 @@
         </style>
 </head>
 <body>
-    <p id="title">Katholische Kirche Bäumenheim<br>Maria Immaculata</p>
+    <p id="title">Katholische Kirche<br>Pfarrgemeinschaft B/O-E/M</p>
     <main>
-        <img id="Kreuz" src="../pictures/Kreuz.jpg">
+        <img id="KreuzB" src="../pictures/Kreuz.jpg">
+        <img id="KreuzO" src="../pictures/Kreuz.jpg">
+        <img id="KreuzM" src="../pictures/Kreuz.jpg">
         <script>
-            var kreuz = document.getElementById("Kreuz");
-            kreuz.addEventListener('mouseover', mouseOver);
-            kreuz.addEventListener('mouseout', mouseOut);
+            var kreuzB = document.getElementById("KreuzB");
+            kreuzB.addEventListener('mouseover', mouseOverB);
+            kreuzB.addEventListener('mouseout', mouseOutB);
+            kreuzB.addEventListener('click', clickB);
 
-            function mouseOver(){
-                kreuz.src = "../pictures/Kreuz2.png";
+            var kreuzO = document.getElementById("KreuzO");
+            kreuzO.addEventListener('mouseover', mouseOverO);
+            kreuzO.addEventListener('mouseout', mouseOutO);
+            kreuzO.addEventListener('click', clickO);
+
+            var kreuzM = document.getElementById("KreuzM");
+            kreuzM.addEventListener('mouseover', mouseOverM);
+            kreuzM.addEventListener('mouseout', mouseOutM);
+            kreuzM.addEventListener('click', clickM);
+
+            function mouseOverB(){
+                kreuzB.src = "../pictures/Kreuz2.png";
             }
 
-            function mouseOut(){
-                kreuz.src = "../pictures/Kreuz.jpg";
+            function mouseOverO(){
+                kreuzO.src = "../pictures/Kreuz2.png";
+            }
+
+            function mouseOverM(){
+                kreuzM.src = "../pictures/Kreuz2.png";
+            }
+
+            function mouseOutB(){
+                kreuzB.src = "../pictures/Kreuz.jpg";
+            }
+
+            function mouseOutO(){
+                kreuzO.src = "../pictures/Kreuz.jpg";
+            }
+
+            function mouseOutM(){
+                kreuzM.src = "../pictures/Kreuz.jpg";
+            }
+
+            function clickB(){
+                location.href = 'Bäumenheim/index.html';
+            }
+
+            function clickO(){
+                location.href = 'Oberndorf-Eggelstetten/index.html';
+            }
+
+            function clickM(){
+                location.href = 'Mertingen/index.html';
             }
         </script>
     </main>
